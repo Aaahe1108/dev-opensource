@@ -1,0 +1,401 @@
+{
+  "name": "/",
+  "type": "dir",
+  "desc": "opensource 服务器根目录",
+  "children": [
+    {
+      "name": "home",
+      "type": "dir",
+      "desc": "开源先驱们的家目录",
+      "children": [
+        {
+          "name": "torvalds",
+          "type": "file",
+          "route": "/home/torvalds",
+          "size": "4.2K",
+          "desc": "Linus Torvalds · Linux 之父",
+          "body": [
+            "Linus Benedict Torvalds，1969 年 12 月 28 日生于芬兰赫尔辛基。",
+            "1991 年，21 岁的他在 usenet 上宣布：「我正在做一个（免费的）操作系统（只是爱好，不会像 GNU 那么大）。」",
+            "同年发布 Linux 0.01，此后三十年亲自维护内核主线。",
+            "名言：「Talk is cheap. Show me the code.」",
+            "2005 年因 BitKeeper 事件编写了 Git。",
+            "详见人物介绍页。"
+          ]
+        },
+        {
+          "name": "stallman",
+          "type": "file",
+          "route": "/home/stallman",
+          "size": "3.8K",
+          "desc": "Richard Stallman · 自由软件之父",
+          "body": [
+            "Richard Matthew Stallman，1953 年生，麻省理工学院人工智能实验室传奇黑客。",
+            "1983 年发起 GNU 计划，1985 年创立自由软件基金会（FSF）。",
+            "起草 GPL 许可证，提出「自由软件」四大自由。",
+            "名言：「自由软件关乎自由，而非价格。」",
+            "Emacs、GCC、GDB 均出自其手或在其推动下诞生。"
+          ]
+        },
+        {
+          "name": "raymond",
+          "type": "file",
+          "route": "/home/raymond",
+          "size": "3.1K",
+          "desc": "Eric S. Raymond · 大教堂与集市",
+          "body": [
+            "Eric Steven Raymond，1957 年生，开源运动最重要的思想家之一。",
+            "1997 年发表《大教堂与集市》，提出 Linus 定律：「足够多的眼睛，就可让所有问题浮现。」",
+            "1998 年推动「开源」一词的确立，参与起草开源定义（OSD）。",
+            "著有《Unix 编程艺术》。",
+            "fetchmail 项目的维护者。"
+          ]
+        },
+        {
+          "name": "community",
+          "type": "file",
+          "route": "/home/community",
+          "size": "2.7K",
+          "desc": "社区：开源的土壤",
+          "body": [
+            "开源不只是代码，更是由开发者、用户与维护者构成的社区。",
+            "社区遵循「尽早发布、频繁发布」（RBP）的理念。",
+            "贡献方式不止写代码：文档、测试、翻译、回复 Issue 都是贡献。",
+            "健康的社区有行为准则（CoC）、透明的决策与善意的文化。",
+            "「Given enough eyeballs, all bugs are shallow.」"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "etc",
+      "type": "dir",
+      "desc": "系统配置：许可证",
+      "children": [
+        {
+          "name": "licenses",
+          "type": "dir",
+          "route": "/etc/licenses/",
+          "desc": "许可证配置目录",
+          "indexBody": [
+            "此处存放开源许可证的「系统配置」。",
+            "可用 ls 查看全部许可证，cat 查看单份许可证详情。",
+            "许可证决定了代码能被如何使用、修改与再分发。",
+            "对比卡片见本页下方。"
+          ],
+          "children": [
+            {
+              "name": "GPL",
+              "type": "file",
+              "route": "/etc/licenses/GPL",
+              "size": "35K",
+              "desc": "GNU 通用公共许可证 v3",
+              "body": [
+                "GPL（GNU General Public License）由自由软件基金会发布。",
+                "核心机制：传染性（copyleft）——衍生作品必须同样以 GPL 发布。",
+                "保证用户四大自由：运行、研究、修改、分发。",
+                "代表项目：Linux 内核（GPLv2）、GCC、WordPress。",
+                "GPLv3 于 2007 年发布，增加了反 Tivoization 条款。"
+              ]
+            },
+            {
+              "name": "MIT",
+              "type": "file",
+              "route": "/etc/licenses/MIT",
+              "size": "1.0K",
+              "desc": "最宽松的开源许可证",
+              "body": [
+                "MIT 许可证源自麻省理工学院，仅约 170 个单词。",
+                "允许任何用途：商用、修改、闭源再分发，只需保留版权声明。",
+                "不提供任何担保。",
+                "代表项目：jQuery、Ruby on Rails、Node.js（npm 生态大量使用）。",
+                "是最受欢迎的许可证之一。"
+              ]
+            },
+            {
+              "name": "Apache-2.0",
+              "type": "file",
+              "route": "/etc/licenses/Apache-2.0",
+              "size": "11K",
+              "desc": "Apache 许可证 2.0",
+              "body": [
+                "Apache License 2.0 由 Apache 软件基金会发布。",
+                "与 MIT 类似宽松，但额外包含明确的专利授权条款。",
+                "贡献者自动授予专利许可，降低专利诉讼风险。",
+                "代表项目：Apache HTTP Server、Kubernetes、Android。",
+                "企业友好，基金会项目常用。"
+              ]
+            },
+            {
+              "name": "BSD",
+              "type": "file",
+              "route": "/etc/licenses/BSD",
+              "size": "6.5K",
+              "desc": "BSD 许可证家族",
+              "body": [
+                "BSD 许可证源自加州大学伯克利分校的 BSD Unix。",
+                "常见 2-Clause（FreeBSD）与 3-Clause（New BSD）。",
+                "3-Clause 额外禁止使用贡献者名字背书。",
+                "允许闭源商用，限制极少。",
+                "代表项目：FreeBSD、nginx、BSD 家族系统。"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "var",
+      "type": "dir",
+      "desc": "日志与历史",
+      "children": [
+        {
+          "name": "log",
+          "type": "dir",
+          "desc": "系统日志目录",
+          "children": [
+            {
+              "name": "kernel.log",
+              "type": "file",
+              "route": "/var/log/kernel",
+              "size": "18K",
+              "desc": "Linux 内核时间线",
+              "body": [
+                "1991-08-25：Linus 在 comp.os.minix 发布著名帖子。",
+                "1991-09-17：Linux 0.01 发布。",
+                "1992：Linux 采用 GPLv2。",
+                "1994：Linux 1.0 发布。",
+                "1996：Linux 2.0，支持多处理器。",
+                "2003：2.6 内核，OEM 大规模采用。",
+                "2011：3.0。",
+                "2015：4.0。",
+                "至今：主线内核由全球数千名开发者共同维护，是最大的协作软件项目。"
+              ]
+            },
+            {
+              "name": "distro.log",
+              "type": "file",
+              "route": "/var/log/distro",
+              "size": "12K",
+              "desc": "发行版编年史",
+              "body": [
+                "1993：Slackware、Debian 诞生。",
+                "1994：Red Hat 发布。",
+                "1998：SUSE 走向企业市场。",
+                "2004：Ubuntu 诞生，桌面普及。",
+                "2008：Arch 保持滚动更新哲学。",
+                "2021：CentOS 转向 Stream，引发社区震动（详见 /lost+found/centos）。",
+                "发行版是内核 + 软件生态 + 理念的封装。"
+              ]
+            },
+            {
+              "name": "fork.log",
+              "type": "file",
+              "route": "/var/log/fork",
+              "size": "9.4K",
+              "desc": "著名分叉事件",
+              "body": [
+                "1993：GCC/EGCS 分叉，最终和解合并。",
+                "2008：MySQL 分叉出 MariaDB。",
+                "2010：Oracle 收购 Sun 后，LibreOffice 从 OpenOffice 分叉。",
+                "分叉（fork）是开源的自由，也是健康的纠错机制。",
+                "开源许可证保障了分叉的权利。"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "usr",
+      "type": "dir",
+      "desc": "用户共享资源",
+      "children": [
+        {
+          "name": "share",
+          "type": "dir",
+          "desc": "共享数据",
+          "children": [
+            {
+              "name": "distros",
+              "type": "dir",
+              "route": "/usr/share/distros/",
+              "desc": "发行版图鉴目录",
+              "indexBody": [
+                "这里收藏了主流发行版的档案，可按家族筛选。",
+                "每个发行版都体现了不同的开源理念与工程取舍。"
+              ]
+            },
+            {
+              "name": "philosophy",
+              "type": "dir",
+              "route": "/usr/share/philosophy/",
+              "desc": "开源哲学文集目录",
+              "indexBody": [
+                "《大教堂与集市》《自由软件定义》《Unix 编程艺术》……",
+                "思想是开源运动最深的根系。"
+              ]
+            },
+            {
+              "name": "tutorials",
+              "type": "dir",
+              "route": "/usr/share/tutorials/",
+              "desc": "贡献教程目录",
+              "indexBody": [
+                "如何参与开源：第一个 Issue、第一个 PR。",
+                "从文档翻译开始也是极好的起点。"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "lost+found",
+      "type": "dir",
+      "desc": "文件系统恢复的碎片：开源史上的教训",
+      "children": [
+        {
+          "name": "centos",
+          "type": "file",
+          "route": "/lost+found/centos",
+          "size": "7.8K",
+          "desc": "CentOS 事件反思",
+          "body": [
+            "2020 年 12 月，CentOS 宣布从 RHEL 克隆转向 CentOS Stream。",
+            "社区用户措手不及，大量工作负载需要迁移。",
+            "事件引发对「公司主导的开源项目可持续性」的深刻反思。",
+            "教训：依赖单一厂商的发行版有风险；关注治理结构。",
+            "衍生：Rocky Linux、AlmaLinux 等社区替代品迅速兴起。"
+          ]
+        },
+        {
+          "name": "heartbleed",
+          "type": "file",
+          "route": "/lost+found/heartbleed",
+          "size": "5.2K",
+          "desc": "Heartbleed 漏洞",
+          "body": [
+            "2014 年 4 月，OpenSSL 爆出 Heartbleed（CVE-2014-0160）。",
+            "全球约三分之二网站受影响，而 OpenSSL 当时仅有少数全职维护者。",
+            "直接推动 Linux 基金会成立 Core Infrastructure Initiative。",
+            "教训：关键基础设施需要持续的资源与审计支持。"
+          ]
+        },
+        {
+          "name": "abandoned-projects",
+          "type": "file",
+          "route": "/lost+found/abandoned-projects",
+          "size": "6.1K",
+          "desc": "被遗弃的项目",
+          "body": [
+            "许多优秀项目因维护者倦怠（burnout）而停更。",
+            "「bus factor」（巴士因子）衡量项目对少数人的依赖。",
+            "健康项目需要：文档、新人引导、可持续的资金与维护者轮换。",
+            "每一个消失的仓库都在提醒：开源也需要照顾人。"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "opt",
+      "type": "dir",
+      "desc": "可选软件与部署配置",
+      "children": [
+        {
+          "name": "deploy",
+          "type": "dir",
+          "desc": "本站部署配置",
+          "children": [
+            {
+              "name": "nginx.conf",
+              "type": "file",
+              "route": "/opt/deploy/nginx",
+              "size": "1.2K",
+              "desc": "本站 Nginx 配置",
+              "body": [
+                "server {",
+                "    listen 80;",
+                "    server_name opensource.example.com;",
+                "    root /var/www/dev-opensource;",
+                "    try_files $uri $uri.html $uri/ =404;",
+                "    gzip on;",
+                "}",
+                "完整配置见本页与 /opt/deploy 部署手册。"
+              ]
+            },
+            {
+              "name": "certbot.md",
+              "type": "file",
+              "route": "/opt/deploy/certbot",
+              "size": "3.3K",
+              "desc": "Let's Encrypt HTTPS 配置",
+              "body": [
+                "使用 certbot 配置 HTTPS：",
+                "sudo apt install certbot python3-certbot-nginx",
+                "sudo certbot --nginx -d opensource.example.com",
+                "自动续期：systemctl enable certbot.timer",
+                "详见本页。"
+              ]
+            },
+            {
+              "name": "systemd.md",
+              "type": "file",
+              "route": "/opt/deploy/systemd",
+              "size": "2.9K",
+              "desc": "systemd 服务管理",
+              "body": [
+                "nginx 由 systemd 管理：systemctl enable --now nginx",
+                "自定义静态服务示例单元文件见本页。",
+                "journalctl -u nginx -f 查看日志。"
+              ]
+            },
+            {
+              "name": "github-actions.yml",
+              "type": "file",
+              "route": "/opt/deploy/github-actions",
+              "size": "1.5K",
+              "desc": "CI/CD 自动部署",
+              "body": [
+                "push 到 main 后自动构建并 scp 到服务器。",
+                "使用 secrets：SERVER_HOST、SERVER_USER、SERVER_KEY。",
+                "完整配置见本页。"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "proc",
+      "type": "dir",
+      "desc": "虚拟进程与社区数据",
+      "children": [
+        {
+          "name": "community",
+          "type": "dir",
+          "desc": "社区统计目录",
+          "children": [
+            {
+              "name": "stats.json",
+              "type": "file",
+              "route": "/proc/community/stats",
+              "size": "896B",
+              "desc": "社区统计 JSON",
+              "body": [
+                "{",
+                "  \"projects_tracked\": 42,",
+                "  \"contributors\": 1280,",
+                "  \"commits_last_30d\": 3642,",
+                "  \"top_language\": \"JavaScript\",",
+                "  \"license_most_used\": \"MIT\"",
+                "}",
+                "真实数据见本页。"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

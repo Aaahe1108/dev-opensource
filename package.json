@@ -1,0 +1,18 @@
+{
+  "name": "dev-opensource",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "packageManager": "pnpm@12.10.1",
+  "description": "用 Linux 文件系统讲述开源精神 —— 一台名为 opensource 的可浏览虚拟服务器",
+  "scripts": {
+    "dev": "vitepress dev",
+    "build": "vitepress build",
+    "preview": "vitepress preview",
+    "serve": "vitepress preview"
+  },
+  "devDependencies": {
+    "vitepress": "^1.6.3",
+    "vue": "^3.5.13"
+  }
+}

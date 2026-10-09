@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 140">
+  <!-- Tux · Linux 企鹅 -->
+  <!-- 脚蹼 -->
+  <ellipse cx="42" cy="128" rx="14" ry="7" fill="#f6a821"/>
+  <ellipse cx="78" cy="128" rx="14" ry="7" fill="#f6a821"/>
+  <!-- 翅膀 -->
+  <path d="M28 62 Q12 80 24 100 Q34 88 34 68 Z" fill="#24292f"/>
+  <path d="M92 62 Q108 80 96 100 Q86 88 86 68 Z" fill="#24292f"/>
+  <!-- 身体 -->
+  <ellipse cx="60" cy="80" rx="34" ry="44" fill="#24292f"/>
+  <!-- 肚皮 -->
+  <ellipse cx="60" cy="92" rx="22" ry="30" fill="#f0f3f6"/>
+  <!-- 眼睛 -->
+  <circle cx="46" cy="46" r="7" fill="#ffffff"/>
+  <circle cx="74" cy="46" r="7" fill="#ffffff"/>
+  <circle cx="47.5" cy="47.5" r="3.2" fill="#24292f"/>
+  <circle cx="72.5" cy="47.5" r="3.2" fill="#24292f"/>
+  <!-- 喙 -->
+  <path d="M53 56 L67 56 L60 64 Z" fill="#f6a821"/>
+</svg>
